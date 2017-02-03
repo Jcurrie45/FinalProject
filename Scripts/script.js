@@ -1,9 +1,8 @@
-//var Expanded=false;
-//    $('#phone').on('click',function(){
-//       if(Expanded){
-//           Expanded=false;
-//       } else{
-//        
-//           Expanded=true;
-//       }
-//    });
+$(document).ready(function(){
+    var normalsize = $('#phonenumber').css('font-size');
+    
+    $("#phone").click(function(){
+        var enlargedsize = parseFloat(normalsize)*1.5;
+        $('#phonenumber').css('font-size', enlargedsize);
+    });
+});
