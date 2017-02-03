@@ -1,0 +1,30 @@
+table, th, td{
+    border: 2px solid #000;
+}
+table{
+    border-collapse: collapse;
+    width: 20%;
+}
+td, th{
+    text-align: center;
+    font-size: 1.25em;
+        padding: 5px;
+}
+.tablespecs{
+    margin: 0px auto;
+}
+.tablespecs tr,th{
+    background: #8fa;
+}
+.tablespecs tr:hover{
+    background-color: #a4c;
+}
+#phone{
+    border: 2px solid #000;
+    width: 15%;
+    margin-bottom: 4px;
+}
+#address{
+    border: 2px solid #000;
+    width: 15%;
+}
