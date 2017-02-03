@@ -1,0 +1,46 @@
+html{
+    min-width: 1250px;
+    color: #fff;
+}
+
+body{
+    background-color: #222;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    align-content: center;
+}
+
+nav>a{
+    text-decoration: none;
+    background-color:  #90b2d8;
+    padding: 15px;
+    margin-left: 70px;
+    width: 90px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+a:link{
+    
+}
+
+a:visited{
+    
+}
+
+a:hover{
+    
+}
+
+a:active{
+    
+}
