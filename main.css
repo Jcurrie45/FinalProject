@@ -13,7 +13,7 @@ table{
 td, th{
     text-align: center;
     font-size: 1.25em;
-        padding: 5px;
+    padding: 5px;
 }
 .tablespecs{
     margin: 0px auto;
@@ -65,16 +65,87 @@ nav{
 
 
 a:link{
-  
+
 }
 
 a:visited{
-    
+
 }
 
 a:hover{
-    
+
 }
 
 a:active{
+}
+
+#graph{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#leftBar{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: -20px;
+    padding-bottom: 0px;
+    margin-top: -20px;
+}
+
+#velocity{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+#bottomRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    margin-left: 360px;
+}
+
+#time{
+    width: 100%;
+    text-align: center;
+}
+
+#graphKey{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 1180px;
+    bottom: 250px;
+    color: #000;
+}
+
+#blue{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#Sanic{
+    height: 20px;
+    width: 20px;
+    background-color: #00F;
+    margin-right: 10px;
+}
+
+#nonSanic{
+    height: 20px;
+    width: 20px;
+    background-color: #F00;
+    margin-right: 10px;
+
+}
+
+#red{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
 }
