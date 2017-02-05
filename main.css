@@ -2,7 +2,6 @@ html{
     min-width: 1250px;
     color: #fff;
 }
-
 table, th, td{
     border: 2px solid #000;
 }
@@ -19,21 +18,37 @@ td, th{
     margin: 0px auto;
 }
 .tablespecs tr,th{
-    background: #8fa;
+    background: #AEBFD3;
+    color: #000;
 }
 .tablespecs tr:hover{
-    background-color: #a4c;
+    background-color: #384BC2;
+    color: #fff;
 }
 #phone{
+    color: #000;
     border: 2px solid #000;
-    width: 15%;
-    margin-bottom: 4px;
+    background: #AEBFD3;
+    width: 25%;
+    height: 10%;
+    text-align: center;
 }
 #address{
+    color: #000;
     border: 2px solid #000;
-    width: 15%;
+    background: #AEBFD3;
+    width: 25%;
+    height: 10%;
+    text-align: center;
 }
-
+#email{
+    color: #000;
+    border: 2px solid #000;
+    background: #AEBFD3;
+    width: 25%;
+    height: 10%;
+    text-align: center;
+}
 #phonenumber{
     font-size: 16px;
 }
@@ -65,18 +80,19 @@ nav{
 
 
 a:link{
-
+    color: #000;
 }
 
 a:visited{
-
+    color: #fff;
 }
 
 a:hover{
-
+    color: #384BC2;
 }
 
 a:active{
+    color: #384bc2;
 }
 
 #graph{
@@ -140,12 +156,49 @@ a:active{
     width: 20px;
     background-color: #F00;
     margin-right: 10px;
-
 }
 
 #red{
     display: flex;
     flex-direction: row;
     align-items: center;
+
+}
+#image{
+    display: block;
+    margin: auto;
+    width: 60%;
+    padding: 1px;
+    border: 5px solid #384BC2;
+}
+body{
+    margin: auto;
+}
+#trainz{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Bree Serif', serif;
+}
+h1{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+#tablePara{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    padding: 30px 200px;
+}
+#Startup{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    padding: 10px 300px;
+}
+#startUp{
+    padding: 50px;
+}
+#contact{
+  display: flex;
+    margin: auto;
+    padding: 30px;
 
 }
