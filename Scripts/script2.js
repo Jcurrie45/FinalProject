@@ -27,4 +27,17 @@ enlargedText = false;
             enlargedText=true;
         }
     });
+    enlargedText = false;
+    $("#email").click(function(){
+        if(enlargedText){
+        notEnlarged = parseFloat(notEnlarged);
+            $('#email').css('font-size',notEnlarged);
+            enlargedText=false;
+        }
+        else if(!enlargedText){
+        var enlargedsize = parseFloat(notEnlarged)*1.5;
+        $('#email').css('font-size', enlargedsize);
+            enlargedText=true;
+        }
+    });
 });
